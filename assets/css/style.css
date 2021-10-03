@@ -90,3 +90,7 @@ body {
 .card__exercise--background {
   background-color: var(--clr-primary--exercise);
 }
+
+.card__social--background {
+  background-color: var(--clr-primary--social);
+}
