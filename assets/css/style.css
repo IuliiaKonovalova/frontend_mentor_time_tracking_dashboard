@@ -75,6 +75,10 @@ body {
   background-color: var(--clr-neutral--500);
 }
 
-.card__work-background {
+.card__work--background {
   background-color: var(--clr-primary--work);
+}
+
+.card__play--background {
+  background-color: var(--clr-primary--play);
 }
