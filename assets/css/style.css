@@ -82,3 +82,11 @@ body {
 .card__play--background {
   background-color: var(--clr-primary--play);
 }
+
+.card__study--background {
+  background-color: var(--clr-primary--study);
+}
+
+.card__exercise--background {
+  background-color: var(--clr-primary--exercise);
+}
