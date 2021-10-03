@@ -37,7 +37,7 @@ p {
 /* Body Styling */
 
 body {
-  height: 100vh;
+  /* height: 100vh; */
   background-color: var(--clr-neutral--900);
   color: var(--clr-neutral--100);
   font-family: var(--ff-primary);
@@ -45,6 +45,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
 
   /* margin: 0 auto; */
 
@@ -58,6 +60,7 @@ body {
   padding: 2rem;
   width: 70%;
   max-width: 90%;
+
 }
 
 .main_card {
