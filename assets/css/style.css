@@ -3,7 +3,7 @@
 :root {
   --clr-primary--card: hsl(246, 80%, 60%);
   --clr-primary--work: hsl(15, 100%, 70%);
-  --clr-primary--work: hsl(195, 74%, 62%);
+  --clr-primary--play: hsl(195, 74%, 62%);
   --clr-primary--study: hsl(348, 100%, 68%);
   --clr-primary--exercise: hsl(145, 58%, 55%);
   --clr-primary--social: hsl(264, 64%, 52%);
@@ -66,6 +66,15 @@ body {
   gap: 1rem;
 }
 
+
+.main_personal_info {
+  background-color: var(--clr-primary--card);
+}
+
 .card {
-  background-color: aqua;
+  background-color: var(--clr-neutral--500);
+}
+
+.card__work-background {
+  background-color: var(--clr-primary--work);
 }
