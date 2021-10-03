@@ -71,8 +71,14 @@ body {
   background-color: var(--clr-primary--card);
 }
 
+.card--bg {
+  height: 2rem;
+  border-radius: var(--br);
+}
+
 .card {
   background-color: var(--clr-neutral--500);
+  border-radius: var(--br);
 }
 
 .card__work--background {
@@ -93,4 +99,8 @@ body {
 
 .card__social--background {
   background-color: var(--clr-primary--social);
+}
+
+.card__self-care--background {
+  background-color: var(--clr-primary--self-care);
 }
