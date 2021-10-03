@@ -62,4 +62,10 @@ body {
 .cards {
   grid-column: 2/3;
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background-color: aqua;
 }
