@@ -87,13 +87,13 @@ body {
   background-color: var(--clr-neutral--500);
   border-radius: var(--br);
   position: relative;
-  height: 15rem;
+  height: 20rem;
 }
 
 /*Styling top of the cards*/
 
 .card--bg {
-  height: 4rem;
+  height: 5rem;
   border-radius: var(--br);
   display: flex;
   justify-content: end;
