@@ -147,13 +147,13 @@ body {
 
 .card_name {
   font-weight: 500;
+  font-size: 1.5vh;
 }
 
 .card__time--current {
   font-size: 5vh;
   padding-top: 2rem;
-
-
+  font-weight: 300;
 }
 
 .hidden {
