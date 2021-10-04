@@ -64,10 +64,12 @@ body {
 .main_card {
   grid-column: 1/2;
   background-color: var(--clr-neutral--500);
+  border-radius: var(--br);
 }
 
 .main_personal_info {
   background-color: var(--clr-primary--card);
+  border-radius: var(--br);
 }
 
 /*------ Nested Grid for  cards------*/
