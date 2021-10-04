@@ -156,6 +156,10 @@ body {
   font-weight: 300;
 }
 
+.card__time--previous {
+  color: var(--clr-neutral--100);
+}
+
 .hidden {
   display: none;
 }
