@@ -37,21 +37,17 @@ p {
 /* Body Styling */
 
 body {
-  /* height: 100vh; */
   background-color: var(--clr-neutral--900);
   color: var(--clr-neutral--100);
   font-family: var(--ff-primary);
-  /* font-size: 3vh; */
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 20vh;
   margin-bottom: 20vh;
-
-  /* margin: 0 auto; */
-
-  /* text-align: center; */
 }
+
+/*------ Grid for all cards------*/
 
 .container {
   display: grid;
@@ -63,11 +59,18 @@ body {
 
 }
 
+/*------ Main card------*/
+
 .main_card {
   grid-column: 1/2;
   background-color: var(--clr-neutral--500);
-
 }
+
+.main_personal_info {
+  background-color: var(--clr-primary--card);
+}
+
+/*------ Nested Grid for  cards------*/
 
 .cards {
   grid-column: 2/3;
@@ -76,23 +79,22 @@ body {
   gap: 2rem;
 }
 
-
-.main_personal_info {
-  background-color: var(--clr-primary--card);
-}
-
-.card--bg {
-  height: 4rem;
-  border-radius: var(--br);
-  display: flex;
-  justify-content: end;
-}
+/*Styling small cards*/
 
 .card {
   background-color: var(--clr-neutral--500);
   border-radius: var(--br);
   position: relative;
   height: 15rem;
+}
+
+/*Styling top of the cards*/
+
+.card--bg {
+  height: 4rem;
+  border-radius: var(--br);
+  display: flex;
+  justify-content: end;
 }
 
 .card__work--background {
@@ -120,6 +122,8 @@ body {
 }
 
 .card__svg {}
+
+/*Styling small cards content*/
 
 .card__content {
   position: absolute;
