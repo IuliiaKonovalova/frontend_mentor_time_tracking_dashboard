@@ -77,13 +77,15 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 3fr 1fr 3fr;
+  padding: 3rem;
+  gap: 2rem;
 }
 
 .main_card_image {
   grid-column: 1/2;
   grid-row: 1/2;
   justify-content: start;
-  margin: 2rem;
+  /* margin: 2rem; */
   /* padding: 2rem; */
   border-radius: 50%;
   border: 0.3rem solid white;
@@ -93,6 +95,14 @@ img {
   display: block;
   width: 100%;
 
+}
+
+.report-title {
+  grid-column: 1/3;
+  grid-row: 2/3;
+  justify-self: start;
+  font-size: 2vh;
+  font-weight: 200;
 }
 
 .options {
