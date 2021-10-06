@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
 
 :root {
-  --clr-primary--card: hsl(246, 80%, 60%);
-  --clr-primary--work: hsl(15, 100%, 70%);
-  --clr-primary--play: hsl(195, 74%, 62%);
-  --clr-primary--study: hsl(348, 100%, 68%);
-  --clr-primary--exercise: hsl(145, 58%, 55%);
-  --clr-primary--social: hsl(264, 64%, 52%);
-  --clr-primary--self-care: hsl(43, 84%, 65%);
-  --clr-neutral--100: hsl(236, 100%, 87%);
-  --clr-neutral--300: hsl(235, 45%, 61%);
-  --clr-neutral--500: hsl(235, 46%, 20%);
-  --clr-neutral--900: hsl(226, 43%, 10%);
+  --clr-primary--card: #5847eb;
+  --clr-primary--work: #ff8c66;
+  --clr-primary--play: #56c2e6;
+  --clr-primary--study: #ff5c7c;
+  --clr-primary--exercise: #4acf81;
+  --clr-primary--social: #7536d3;
+  --clr-primary--self-care: #f1c65b;
+  --clr-neutral--100: #bdc1ff;
+  --clr-neutral--300: #6f76c8;
+  --clr-neutral--500: #1c1f4a;
+  --clr-neutral--900: #0f1424;
   --ff-primary: 'Rubik', sans-serif;
   --br: 1em;
 }
@@ -119,6 +119,8 @@ img {
   color: white;
 }
 
+/*Style Time Options*/
+
 .options {
   position: absolute;
   top: 70%;
@@ -151,13 +153,19 @@ img {
   background-color: var(--clr-neutral--500);
   border-radius: var(--br);
   position: relative;
-  height: 20rem;
+  height: 25rem;
+}
+
+.card:hover {
+  /* background: rgb(255, 255, 255); */
+  background-color: var(--clr-neutral--500);
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.4290091036414566) 0%, rgba(15, 20, 36, 1) 100%);
 }
 
 /*Styling top of the cards*/
 
 .card--bg {
-  height: 5rem;
+  height: 6.5rem;
   border-radius: var(--br);
   display: flex;
   justify-content: end;
@@ -215,17 +223,18 @@ img {
 
 .card_name {
   font-weight: 500;
-  font-size: 1.5vh;
+  font-size: 2vh;
 }
 
 .card__time--current {
-  font-size: 5vh;
+  font-size: 7vh;
   padding-top: 2rem;
   font-weight: 300;
 }
 
 .card__time--previous {
   color: var(--clr-neutral--100);
+  font-size: 2vh;
 }
 
 .hidden {
