@@ -155,11 +155,7 @@ img {
   height: 25rem;
 }
 
-.card:hover {
-  /* background: rgb(255, 255, 255); */
-  background-color: var(--clr-neutral--500);
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.4290091036414566) 0%, rgba(15, 20, 36, 1) 100%);
-}
+
 
 /*Styling top of the cards*/
 
@@ -213,6 +209,11 @@ img {
   -webkit-box-shadow: -2px -7px 22px 4px rgba(0, 0, 0, 0.68);
   -moz-box-shadow: -2px -7px 10px 4px rgba(0, 0, 0, 0.68);
   color: whitesmoke;
+}
+
+.card__content:hover {
+  background-color: var(--clr-neutral--500);
+  background: radial-gradient(circle, rgb(38, 45, 145) 0%, rgba(28, 31, 74, 1) 100%);
 }
 
 .card__name--holder {
