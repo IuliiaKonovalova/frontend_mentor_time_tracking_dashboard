@@ -73,7 +73,7 @@ body {
   border-radius: var(--br);
   position: absolute;
   width: 100%;
-  height: 75%;
+  height: 70%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 2fr 1fr 3fr;
@@ -114,14 +114,21 @@ img {
   grid-row: 3/4;
   justify-self: start;
   align-self: start;
-  font-size: 5vh;
+  font-size: 4vh;
   font-weight: 200;
   color: white;
 }
 
 .options {
   position: absolute;
-  bottom: 0;
+  top: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 2rem;
+  height: 30%;
+  font-weight: 400;
+  font-size: 2vh;
 }
 
 /*------ Nested Grid for  cards------*/
