@@ -127,8 +127,13 @@ img {
   justify-content: space-around;
   padding: 2rem;
   height: 30%;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 2vh;
+}
+
+.option:hover {
+  color: white;
+  font-weight: 400;
 }
 
 /*------ Nested Grid for  cards------*/
