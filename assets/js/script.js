@@ -64,4 +64,16 @@ async function requestTimeData() {
     });
   });
 
+  // Listen to the Monthly btn click
+  btnMonthly.addEventListener("click", event => {
+    cardContent.forEach(element => {
+      event.preventDefault();
+
+      //Iterates through the cards and pushes time data to each card
+      for (let i = 0; i < data.length; i++) {
+        timeCurrent[i].textContent = data[i].timeframes.monthly.current + "hrs";
+        timePrevious[i].textContent = "Last Month - " + data[i].timeframes.monthly.previous + "hrs";
+      }
+    })
+  })
 }
