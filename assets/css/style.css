@@ -320,7 +320,7 @@ img {
   }
 
 
-  /*------ Nested Grid for  cards------*/
+  /*--Media for small cards--*/
 
   .cards {
     grid-column: 1/3;
@@ -330,10 +330,12 @@ img {
   }
 
   .card {
-    height: 15rem;
+    height: 20rem;
   }
 
-  /*Styling small cards content*/
+  .card__content {
+    padding: 1.5rem;
+  }
 
   .card__name--holder {
     display: flex;
@@ -347,7 +349,7 @@ img {
 
   .time__holder {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+    grid-template-columns: 1fr 2fr;
   }
 
   .card__time--current {
