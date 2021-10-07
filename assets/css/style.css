@@ -137,6 +137,11 @@ img {
   font-weight: 400;
 }
 
+.option--active {
+  color: white;
+  font-weight: 400;
+}
+
 /*------ Nested Grid for  cards------*/
 
 .cards {
