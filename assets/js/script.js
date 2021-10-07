@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
  * Load Cards' content onLoad
  */
 async function requestAllData() {
+  //Request Data from local json file on the page load 
   const response = await fetch('data.json');
   const data = await response.json();
   cardContent.forEach(element => {
