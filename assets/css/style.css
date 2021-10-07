@@ -41,6 +41,7 @@ body {
   color: var(--clr-neutral--100);
   font-family: var(--ff-primary);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 15vh;
@@ -239,9 +240,8 @@ img {
 }
 
 .attribution {
-  position: absolute;
-  bottom: 2rem;
   font-size: 1.5vh;
+  margin: 2rem auto;
 }
 
 
