@@ -1,4 +1,4 @@
-const btnDaily = document.querySelector("#btn-daily")
+const btnDaily = document.querySelector("#btn-daily");
 const btnWeekly = document.querySelector("#btn-weekly");
 const btnMonthly = document.querySelector("#btn-monthly");
 
@@ -7,14 +7,18 @@ let cardName = document.querySelectorAll("#card_name");
 let timeCurrent = document.querySelectorAll("#card__time--current");
 let timePrevious = document.querySelectorAll("#card__time--previous");
 
-
+/**
+ * Load Cards' content onLoad
+ */
 document.addEventListener('DOMContentLoaded', function () {
   requestAllData();
   requestTimeData();
 });
 
 /**
- * Load Cards' content onLoad
+ * Make request to json file
+ * Get data from json file
+ * when the file is loaded
  */
 async function requestAllData() {
   //Request Data from local json file on the page load 
@@ -25,6 +29,7 @@ async function requestAllData() {
       cardName[i].textContent = data[i].title;
       timeCurrent[i].textContent = data[i].timeframes.daily.current + (data[i].timeframes.daily.current > 1 ? "hrs" : "hr");
       timePrevious[i].textContent = "Yesterday - " + data[i].timeframes.daily.previous + (data[i].timeframes.daily.previous > 1 ? "hrs" : "hr");
+
     }
   })
 };
@@ -33,6 +38,7 @@ async function requestAllData() {
 /**
  * Make request to json file
  * Get data from json file
+ * when the option is clicked
  */
 async function requestTimeData() {
   const response = await fetch('data.json');
@@ -81,8 +87,11 @@ async function requestTimeData() {
   })
 }
 
-// function that removes active class with white color text //
 
+/**
+ * Removes active class with the previous active option
+ * Add active class to active option
+ */
 function activeOption(element, previousActiveOption1, previousActiveOption2) {
   previousActiveOption1.classList.remove("option--active");
   previousActiveOption2.classList.remove("option--active");
