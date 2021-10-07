@@ -346,8 +346,10 @@ img {
   }
 
   .time__holder {
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
   }
 
   .card__time--current {
@@ -357,9 +359,11 @@ img {
   }
 
   .card__time--previous {
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
     color: var(--clr-neutral--100);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    justify-self: center;
+    align-self: center;
   }
 
   .attribution {
