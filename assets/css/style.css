@@ -56,7 +56,6 @@ body {
   padding: 2rem;
   width: 70%;
   max-width: 90%;
-
 }
 
 /*------ Main card------*/
@@ -248,6 +247,14 @@ img {
 /*------ Media------*/
 
 @media screen and (max-width: 130.438rem) {
+
+
+  /* Body Styling */
+
+  body {
+    margin-top: 5vh;
+  }
+
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -344,7 +351,7 @@ img {
   }
 
   .card__time--current {
-    font-size: 4rem;
+    font-size: 3rem;
     padding-top: 0;
     font-weight: 300;
   }
