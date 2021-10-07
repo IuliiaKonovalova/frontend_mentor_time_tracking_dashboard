@@ -49,6 +49,7 @@ async function requestTimeData() {
         timePrevious[i].textContent = "Yesterday - " + data[i].timeframes.daily.previous + (data[i].timeframes.daily.previous > 1 ? "hrs" : "hr");
       }
     });
+    activeOption(btnDaily, btnWeekly, btnMonthly);
   });
 
   // Listen to the Weekly btn click
@@ -62,6 +63,7 @@ async function requestTimeData() {
         timePrevious[i].textContent = "Last Week - " + data[i].timeframes.weekly.previous + "hrs";
       }
     });
+    activeOption(btnWeekly, btnDaily, btnMonthly);
   });
 
   // Listen to the Monthly btn click
@@ -75,5 +77,14 @@ async function requestTimeData() {
         timePrevious[i].textContent = "Last Month - " + data[i].timeframes.monthly.previous + "hrs";
       }
     })
+    activeOption(btnMonthly, btnWeekly, btnDaily);
   })
+}
+
+// function that removes active class with white color text //
+
+function activeOption(element, previousActiveOption1, previousActiveOption2) {
+  previousActiveOption1.classList.remove("option--active");
+  previousActiveOption2.classList.remove("option--active");
+  element.classList.add("option--active");
 }
