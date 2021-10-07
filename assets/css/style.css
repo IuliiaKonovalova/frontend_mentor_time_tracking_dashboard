@@ -325,4 +325,38 @@ img {
   .card {
     height: 15rem;
   }
+
+  /*Styling small cards content*/
+
+  .card__name--holder {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .card_name {
+    font-size: 1.5rem;
+  }
+
+  .time__holder {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card__time--current {
+    font-size: 4rem;
+    padding-top: 0;
+    font-weight: 300;
+  }
+
+  .card__time--previous {
+    padding-top: 2rem;
+    color: var(--clr-neutral--100);
+    font-size: 1.5rem;
+  }
+
+  .attribution {
+    font-size: 1.5vh;
+    margin: 2rem auto;
+  }
 }
