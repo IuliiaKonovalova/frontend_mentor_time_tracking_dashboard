@@ -212,9 +212,18 @@ img {
   color: whitesmoke;
 }
 
-.card__content:hover {
-  background-color: var(--clr-neutral--500);
-  background: radial-gradient(circle, rgb(38, 45, 145) 0%, rgba(28, 31, 74, 1) 100%);
+
+.card__content:hover::before,
+.card__content:hover::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: var(--br);
+  border: 1px solid rgba(255, 255, 255, 0.096);
+  background-color: rgba(255, 255, 255, 0.021);
 }
 
 .card__name--holder {
