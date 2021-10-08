@@ -432,8 +432,6 @@ img {
 
   .main_personal_info {
     height: 12rem;
-    padding: 1rem;
-    gap: 1rem;
   }
 
   .main_card {
@@ -446,20 +444,6 @@ img {
     padding: 0;
   }
 
-  .report-title {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    align-self: end;
-    font-size: 1rem;
-  }
-
-  .user_name {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    font-size: 1.7rem;
-    align-self: start;
-  }
-
   .main_card_image {
     width: 6rem;
   }
@@ -468,21 +452,21 @@ img {
     grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
   }
 
-  .card {
-    height: 15rem;
-  }
-
-  .card__content {
-    padding: 2rem;
-  }
-
   .time__holder {
     display: flex;
     flex-direction: column;
   }
 
   .card__time--previous {
-    align-content: left;
-    justify-content: left;
+    align-self: start;
+    padding-top: 0.5rem;
+  }
+
+  .options {
+    height: 5.1rem;
+    font-size: 1.2rem;
+    justify-content: space-around;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
