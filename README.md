@@ -13,9 +13,9 @@ I have also added various breakpoints in order to provide the best user experien
 
 ---
 
-The site can be accessed by this [link](https://iuliiakonovalova.github.io/flash_cards/)
+The site can be accessed by this [link](https://iuliiakonovalova.github.io/____________/)
 
-![Responsive Mockup](documentation/responsive_mockup.png)
+![Responsive Mockup](documentation/responsive_mockup.png_____________________)
 
 
 ---
@@ -30,6 +30,28 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/flash
 ### Frequent Visitor Goals:
 * As a Frequent User, I want to get my personal information, so I can track the time that I spend on different activities during the day.
 * As a Frequent User, I want to have different options for tracking the time, so I can make prudent decision on how I spend my personal time. 
+
+---
+
+## Features
+
++ ### Main Page
+
+    - Represent: 
+
+        * the time tracking dashboard.
+
+    ![Main Page](documentation/app_features/mainu_page_screenshot.png)
+
+        * Has the main card with personal information for the user.
+        * Has three buttons under personal information card which allows the user to peek the time duration.
+        * Has three cards: work, study, play, exercise, social and sef-care, which allows the user to track the time spending on those activities during a day, a week , and a month. These cards also show the time that had been spent recently on those activities and the time that had been spend the day before, a week before, and a month before.
+        * Has a link to [Frontend Mentor](https://www.frontendmentor.io) website, which provided all images and required design as well as the link to my github account [Iuliia Konovalova](https://github.com/IuliiaKonovalova)
+
+
+
+
+
 
 ---
 
