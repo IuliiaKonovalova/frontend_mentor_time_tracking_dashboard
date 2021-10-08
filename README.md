@@ -106,3 +106,16 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+
+---
+
+## Wireframes
+
+- Desktop
+
+![Design preview for the Time tracking dashboard coding challenge](documentation/design/desktop-design.jpg)
+
+- Mobile
+
+![Design preview for the Time tracking dashboard coding challenge](documentation/design/mobile-design.jpg)
+
