@@ -384,20 +384,45 @@ img {
 
 
 @media screen and (max-width: 52.1875rem) {
+
+  .main_personal_info {
+    height: 12rem;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
   .container {
     width: 90%;
     margin: 0;
   }
 
+  .report-title {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: end;
+    font-size: 1rem;
+  }
+
+  .user_name {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-size: 1.7rem;
+    align-self: start;
+  }
+
   .main_card_image {
-    width: 20vw;
+    width: 10rem;
   }
 
   .cards {
-    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(25em, 1fr));
   }
 
   .card {
     height: 15rem;
+  }
+
+  .card__content {
+    padding: 2rem;
   }
 }
