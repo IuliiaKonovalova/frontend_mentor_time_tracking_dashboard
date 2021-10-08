@@ -1,6 +1,15 @@
 # Frontend Mentor - Time tracking dashboard
 
-![Design preview for the Time tracking dashboard coding challenge](./design/desktop-preview.jpg)
+
+The project was based on the challenge provided by [Frontend Mentor](https://www.frontendmentor.io).
+
+I was using design files provided for this challenge in order to make the result look as similar as possible to the provided images.
+I have also added various breakpoints in order to provide the best user experience.
+
+---
+## The design provided
+
+![Design preview for the Time tracking dashboard coding challenge](./design/documentation/desktop-preview.jpg)
 
 ## Welcome! 👋
 
