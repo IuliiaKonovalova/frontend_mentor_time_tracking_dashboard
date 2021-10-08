@@ -9,7 +9,7 @@ I have also added various breakpoints in order to provide the best user experien
 ---
 ## The design provided
 
-![Design preview for the Time tracking dashboard coding challenge](./design/documentation/desktop-preview.jpg)
+![Design preview for the Time tracking dashboard coding challenge](documentation/design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
