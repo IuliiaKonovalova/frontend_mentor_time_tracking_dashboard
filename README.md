@@ -11,6 +11,28 @@ I have also added various breakpoints in order to provide the best user experien
 
 ![Design preview for the Time tracking dashboard coding challenge](documentation/design/desktop-preview.jpg)
 
+---
+
+The site can be accessed by this [link](https://iuliiakonovalova.github.io/flash_cards/)
+
+![Responsive Mockup](documentation/responsive_mockup.png)
+
+
+---
+## User Stories
+
+### First Time Visitor Goals:
+
+* As a First Time Visitor, I want to easily understand the main purpose of the app, so I can learn more about this app.
+* As a First Time Visitor, I want to be able to easily navigate through the app, so I can find the content.
+* As a First Time Visitor, I want to find the app useful.
+
+### Frequent Visitor Goals:
+* As a Frequent User, I want to get my personal information, so I can track the time that I spend on different activities during the day.
+* As a Frequent User, I want to have different options for tracking the time, so I can make prudent decision on how I spend my personal time. 
+
+---
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
