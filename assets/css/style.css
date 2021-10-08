@@ -248,8 +248,15 @@ img {
 }
 
 .attribution {
-  font-size: 1.5vh;
-  margin: 2rem auto;
+  font-size: 2vh;
+  /* margin: 2rem auto; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+.attribution>div {
+  padding-top: 2vh;
 }
 
 
