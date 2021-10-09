@@ -234,7 +234,11 @@ img {
 
 .card_name {
   font-weight: 500;
-  /* font-size: 2rem; */
+}
+
+.card__ellipsis {
+  display: flex;
+  padding-top: 0.5rem
 }
 
 .card__time--current {
@@ -245,7 +249,6 @@ img {
 
 .card__time--previous {
   color: var(--clr-neutral--100);
-  /* font-size: 2rem; */
 }
 
 /*--Styling Credits--*/
