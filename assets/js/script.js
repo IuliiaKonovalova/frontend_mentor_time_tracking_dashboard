@@ -6,6 +6,7 @@ const cardContent = document.querySelectorAll('.card__content');
 let cardName = document.querySelectorAll(".card_name");
 let timeCurrent = document.querySelectorAll(".card__time--current");
 let timePrevious = document.querySelectorAll(".card__time--previous");
+let ellipsis = document.querySelectorAll('.card__ellipsis')
 
 /**
  * Load Cards' content onLoad
@@ -24,6 +25,7 @@ async function requestAllData() {
   //Request Data from local json file on the page load 
   const response = await fetch('data.json');
   const data = await response.json();
+  ellipsis.forEach(element => element.innerHTML = '<svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd" /></svg>');
   cardContent.forEach(element => {
     for (let i = 0; i < data.length; i++) {
       cardName[i].textContent = data[i].title;
