@@ -247,18 +247,24 @@ img {
   font-size: 2vh;
 }
 
+/*--Styling Credits--*/
+
 .attribution {
   font-size: 2vh;
-  /* margin: 2rem auto; */
   display: flex;
   flex-direction: column;
+  text-align: center;
   margin-top: 5rem;
 }
 
 .attribution>div {
   padding-top: 2vh;
+  letter-spacing: 0.1rem;
 }
 
+.attribution>div a {
+  color: var(--clr-primary--card)
+}
 
 /*------ Media------*/
 
