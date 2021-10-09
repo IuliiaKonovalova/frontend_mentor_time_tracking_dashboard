@@ -210,6 +210,7 @@ img {
   -webkit-box-shadow: -2px -7px 22px 4px rgba(0, 0, 0, 0.68);
   -moz-box-shadow: -2px -7px 10px 4px rgba(0, 0, 0, 0.68);
   color: whitesmoke;
+  font-size: 2rem;
 }
 
 
@@ -233,18 +234,18 @@ img {
 
 .card_name {
   font-weight: 500;
-  font-size: 2vh;
+  /* font-size: 2rem; */
 }
 
 .card__time--current {
-  font-size: 7vh;
-  padding-top: 2rem;
+  font-size: 4.5rem;
+  padding-top: 1.2rem;
   font-weight: 300;
 }
 
 .card__time--previous {
   color: var(--clr-neutral--100);
-  font-size: 2vh;
+  /* font-size: 2rem; */
 }
 
 /*--Styling Credits--*/
