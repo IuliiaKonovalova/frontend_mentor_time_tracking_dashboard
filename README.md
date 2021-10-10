@@ -41,6 +41,8 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/_____
 
         * the time tracking dashboard.
 
+    - Consist:
+
         ![Main Page](documentation/app_features/main_page.png)
 
         * Has the main card with personal information for the user and the time options.
@@ -63,8 +65,23 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/_____
 
         ![Credits](documentation/app_features/footer.png)
 
+---
 
+## Technologies Used
 
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - was used as the foundation of the site.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was used to add the styles and layout of the site.
+- [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to arrange items simmetrically on the pages.
+- [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) - was used to make "gallery" and "contact" pages responsive.
+- [CSS roots](https://developer.mozilla.org/en-US/docs/Web/CSS/:root) - was used to declaring global CSS variables and apply them throughout the project. 
+- [VSCode](https://code.visualstudio.com/) - was used as the main tool to write and edit code.
+- [Git](https://git-scm.com/) - was used for the version control of the website.
+- [GitHub](https://github.com/) - was used to host the code of the website.
+- [GIMP](https://www.gimp.org/) - was used to make and resize images for the README file.
+- [JS](https://www.javascript.com/) - was used to display content on the page.
+- [async functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) - were used to fetch the data from the local json file.
+
+---
 
 
 
