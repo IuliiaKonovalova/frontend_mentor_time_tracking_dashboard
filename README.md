@@ -132,7 +132,7 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/_____
 
 ---
 
-### Bugs
+## Bugs
 + **Solved bugs**
 
 1. The functions that pushes data from the json file did not represent 'hr' and 'hr' correctly.
@@ -145,6 +145,36 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/_____
     - None.
 
 ---
+
+
+## Testing
+
+
+**COMPATIBILITY:**
+
++ The app was tested on the following browsers: Chrome, Firefox, Brave, Edge:
+
+  - Chrome:
+
+  ![Main Page](documentation/compatibility/google_browser.png)
+  
+  - Firefox:
+
+  ![Main Page](documentation/compatibility/firefox_browser.png)
+
+  - Brave:
+
+  ![Main Page](documentation/compatibility/brave_browser.png)
+
+  - Noted Issues:
+    - None.
+
+
++ The app was checked by devtools implemented on Firefox and Chrome browsers.
+
++ The app was checked with [Responsive Website Design Tester](https://responsivedesignchecker.com/).
+
+
 
 ---
 
