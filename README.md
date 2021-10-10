@@ -82,7 +82,55 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/_____
 - [async functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) - were used to fetch the data from the local json file.
 
 ---
+## Design
 
+- The color scheme and font-family were provided by [Frontend Mentor](https://www.frontendmentor.io).
+
+- Background Color:
+
+![Background Color](documentation/design/background_color.png)
+
+- Cards Background Color:
+
+![Cards Background Color](documentation/design/cards_background_color.png)
+
+- Work Card Top Color:
+
+![Work Card Top Color](documentation/design/work_card_top_color.png)
+
+- Play Card Top Color:
+
+![Play Card Top Color](documentation/design/play_card_top_color.png)
+
+- Study Card Top Color:
+
+![Study Card Top Color](documentation/design/study_card_top_color.png)
+
+- Exercise Card Top Color:
+
+![Exercise Card Top Color](documentation/design/exercise_card_top_color.png)
+
+- Social Card Top Color:
+
+![Social Card Top Color](documentation/design/social_card_top_color.png)
+
+- Self Care Card Top Color:
+
+![Self Care Card Top Color](documentation/design/self_care_card_top_color.png)
+
+- Text Color:
+
+![Text Color](documentation/design/text_color.png)
+
+- Accent Text Color:
+
+![Accent Text Color](documentation/design/text_accent_color.png)
+
+- Font-family (Rubik):
+
+![Font](documentation/design/font_family_rubik.png)
+
+---
 
 
 ---
