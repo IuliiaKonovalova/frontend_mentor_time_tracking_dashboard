@@ -57,9 +57,13 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/_____
 
         ![Time Options](documentation/app_features/main_card_time_options.png)
 
-        * Has three cards: work, study, play, exercise, social and sef-care, which allows the user to track the time spending on those activities during a day, a week , and a month. These cards also show the time that had been spent recently on those activities and the time that had been spend the day before, a week before, and a month before.
+        * Has three cards: work, study, play, exercise, social and sef-care, which allows the user to track the time spending on those activities during a day, a week , and a month.
 
         ![Cards](documentation/app_features/report_cards.png)
+
+        * These cards also show the time that had been spent recently on those activities and the time that had been spend the day before, a week before, and a month before.
+
+        ![Cards](documentation/app_features/time_card.png)
 
         * Has a link to [Frontend Mentor](https://www.frontendmentor.io) website, which provided all images and required design as well as the link to my github account [Iuliia Konovalova](https://github.com/IuliiaKonovalova)
 
