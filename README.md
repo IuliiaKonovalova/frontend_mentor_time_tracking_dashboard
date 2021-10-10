@@ -41,12 +41,27 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/_____
 
         * the time tracking dashboard.
 
-    ![Main Page](documentation/app_features/mainu_page_screenshot.png)
+        ![Main Page](documentation/app_features/main_page.png)
+
+        * Has the main card with personal information for the user and the time options.
+
+        ![Main Card](documentation/app_features/main_card.png)
 
         * Has the main card with personal information for the user.
+
+        ![Personal Information](documentation/app_features/main_card_personal_info.png)
+
         * Has three buttons under personal information card which allows the user to peek the time duration.
+
+        ![Time Options](documentation/app_features/main_card_time_options.png)
+
         * Has three cards: work, study, play, exercise, social and sef-care, which allows the user to track the time spending on those activities during a day, a week , and a month. These cards also show the time that had been spent recently on those activities and the time that had been spend the day before, a week before, and a month before.
+
+        ![Cards](documentation/app_features/report_cards.png)
+
         * Has a link to [Frontend Mentor](https://www.frontendmentor.io) website, which provided all images and required design as well as the link to my github account [Iuliia Konovalova](https://github.com/IuliiaKonovalova)
+
+        ![Credits](documentation/app_features/footer.png)
 
 
 
