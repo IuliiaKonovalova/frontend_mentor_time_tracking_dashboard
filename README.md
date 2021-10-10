@@ -132,6 +132,19 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/_____
 
 ---
 
+### Bugs
++ **Solved bugs**
+
+1. The functions that pushes data from the json file did not represent 'hr' and 'hr' correctly.
+
+    - *Solutions:* Add the ternary operator ```data[i].timeframes.daily.current > 1 ? "hrs" : "hr"```.
+    
+
++ **Unsolved bugs**
+
+    - None.
+
+---
 
 ---
 
