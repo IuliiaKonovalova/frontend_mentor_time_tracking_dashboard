@@ -161,6 +161,7 @@ img {
   border-radius: var(--br);
   display: flex;
   justify-content: end;
+  position: relative;
 }
 
 .card__work--background {
@@ -185,6 +186,11 @@ img {
 
 .card__self-care--background {
   background-color: var(--clr-primary--self-care);
+}
+
+.card__svg {
+  background-color: violet;
+  position: absolute;
 }
 
 
