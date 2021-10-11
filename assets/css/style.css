@@ -298,13 +298,11 @@ img {
   /*Styling top of the cards*/
 
   .card--bg {
-    height: 10vh;
+    height: 15vh;
     border-radius: var(--br);
     display: flex;
     justify-content: end;
   }
-
-
 
 
   /*Styling small cards content*/
@@ -550,7 +548,7 @@ img {
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
 
   .main_personal_info {
     height: 12rem;
@@ -560,10 +558,12 @@ img {
     min-width: 16rem;
   }
 
+
+
   .container {
-    width: 97%;
-    margin: 0;
+    width: 90%;
     padding: 0;
+    margin-top: 5vh;
   }
 
   .main_card_image {
@@ -592,5 +592,3 @@ img {
     padding-right: 1rem;
   }
 }
-
-/* and (min-width: 90.438rem) */
