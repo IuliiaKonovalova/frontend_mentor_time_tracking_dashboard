@@ -166,35 +166,51 @@ body {
 
 .card__work--background {
   background-color: var(--clr-primary--work);
+  background-image: url(../images/icons/icon-work.svg);
+  background-repeat: no-repeat;
+  background-position: right 1.5rem top -1rem;
+  background-size: 30%;
 }
 
 .card__play--background {
   background-color: var(--clr-primary--play);
+  background-image: url(../images/icons/icon-play.svg);
+  background-repeat: no-repeat;
+  background-position: right 1.5rem top -1rem;
+  background-size: 30%;
 }
 
 .card__study--background {
   background-color: var(--clr-primary--study);
+  background-image: url(../images/icons/icon-study.svg);
+  background-repeat: no-repeat;
+  background-position: right 1.5rem top -1rem;
+  background-size: 30%;
 }
 
 .card__exercise--background {
   background-color: var(--clr-primary--exercise);
+  background-image: url(../images/icons/icon-exercise.svg);
+  background-repeat: no-repeat;
+  background-position: right 1.5rem top -0.1rem;
+  background-size: 30%;
 }
 
 .card__social--background {
   background-color: var(--clr-primary--social);
+  background-image: url(../images/icons/icon-social.svg);
+  background-repeat: no-repeat;
+  background-position: right 1.5rem top -1rem;
+  background-size: 30%;
 }
 
 .card__self-care--background {
   background-color: var(--clr-primary--self-care);
+  background-image: url(../images/icons/icon-self-care.svg);
+  background-repeat: no-repeat;
+  background-position: right 1.5rem top -1rem;
+  background-size: 30%;
 }
-
-.card__svg {
-  background-color: violet;
-  position: absolute;
-  right: 2rem;
-  bottom: 1rem;
-}
-
 
 /*Styling small cards content*/
 
@@ -242,7 +258,6 @@ body {
 
 .card__ellipsis {
   display: flex;
-  padding-top: 1rem;
   width: 2rem;
 }
 
@@ -556,9 +571,11 @@ body {
   }
 
   .card__content {
-    padding: 2rem;
+    padding: 1.5rem;
   }
 }
+
+@media screen and (max-width: 52.1875rem) {}
 
 /* Media for mobile screens */
 
@@ -598,7 +615,7 @@ body {
   /*Media for Time Cards*/
 
   .cards {
-    grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(13em, 1fr));
     gap: 1rem;
   }
 
@@ -607,9 +624,14 @@ body {
     flex-direction: column;
   }
 
+  .card__time--current {
+    font-size: 2rem;
+  }
+
   .card__time--previous {
     align-self: start;
-    padding-top: 0.5rem;
+    padding-top: 0.3rem;
+    font-size: 1rem;
   }
 
 }
