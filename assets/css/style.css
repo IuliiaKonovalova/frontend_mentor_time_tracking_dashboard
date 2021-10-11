@@ -393,6 +393,7 @@ img {
   }
 
   .attribution {
+    position: unset;
     font-size: 1.5vh;
     margin: 2rem auto;
   }
