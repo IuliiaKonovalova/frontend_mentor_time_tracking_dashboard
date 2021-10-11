@@ -45,6 +45,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  position: relative;
 }
 
 /*------ Grid for all cards------*/
@@ -251,11 +252,12 @@ img {
 /*--Styling Credits--*/
 
 .attribution {
+  position: absolute;
+  bottom: 3vh;
   font-size: 2vh;
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-top: 7vh;
 }
 
 .attribution>div {
