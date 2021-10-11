@@ -13,9 +13,9 @@ I have also added various breakpoints in order to provide the best user experien
 
 ---
 
-The site can be accessed by this [link](https://iuliiakonovalova.github.io/____________/)
+The site can be accessed by this [link](https://iuliiakonovalova.github.io/frontend_mentor_time_tracking_dashboard/)
 
-![Responsive Mockup](documentation/responsive_mockup.png_____________________)
+![Responsive Mockup](documentation/responsive_mockup.png)
 
 
 ---
