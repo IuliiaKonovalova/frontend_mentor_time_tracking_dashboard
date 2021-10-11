@@ -86,7 +86,7 @@ body {
   width: 10rem;
 }
 
-img {
+.photo {
   display: block;
   width: 100%;
   object-fit: contain;
@@ -191,6 +191,8 @@ img {
 .card__svg {
   background-color: violet;
   position: absolute;
+  right: 2rem;
+  bottom: 1rem;
 }
 
 
@@ -240,7 +242,14 @@ img {
 
 .card__ellipsis {
   display: flex;
-  padding-top: 0.5rem
+  padding-top: 1rem;
+  width: 2rem;
+}
+
+.card__ellipsis img {
+  width: 100%;
+  display: block;
+  object-fit: contain;
 }
 
 .card__time--current {
@@ -420,7 +429,7 @@ img {
     width: 9rem;
   }
 
-  img {
+  .photo {
     border: 0.15rem solid white;
   }
 
