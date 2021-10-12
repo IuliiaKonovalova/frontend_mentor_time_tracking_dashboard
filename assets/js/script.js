@@ -1,3 +1,5 @@
+/* jshint esversion:8*/
+
 //Variables
 
 const btnDaily = document.querySelector("#btn-daily");
@@ -8,7 +10,7 @@ const cardContent = document.querySelectorAll('.card__content');
 let cardName = document.querySelectorAll(".card_name");
 let timeCurrent = document.querySelectorAll(".card__time--current");
 let timePrevious = document.querySelectorAll(".card__time--previous");
-let ellipsis = document.querySelectorAll('.card__ellipsis')
+let ellipsis = document.querySelectorAll('.card__ellipsis');
 
 /**
  * Load Cards' content onLoad
@@ -35,8 +37,8 @@ async function requestAllData() {
       timePrevious[i].textContent = "Yesterday - " + data[i].timeframes.daily.previous + (data[i].timeframes.daily.previous > 1 ? "hrs" : "hr");
 
     }
-  })
-};
+  });
+}
 
 
 /**
@@ -86,9 +88,9 @@ async function requestTimeData() {
         timeCurrent[i].textContent = data[i].timeframes.monthly.current + "hrs";
         timePrevious[i].textContent = "Last Month - " + data[i].timeframes.monthly.previous + "hrs";
       }
-    })
+    });
     activeOption(btnMonthly, btnWeekly, btnDaily);
-  })
+  });
 }
 
 
