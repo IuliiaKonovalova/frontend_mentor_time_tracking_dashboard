@@ -302,6 +302,33 @@ body {
 
 /*------ Media------*/
 
+@media screen and (max-width: 90.438rem) and (min-width: 70.439rem) {
+  .container {
+    gap: 1rem;
+  }
+
+  .cards {
+    gap: 1rem;
+  }
+
+  .cards {
+    grid-template-columns: repeat(3, minmax(16em, 1fr));
+    gap: 1rem;
+  }
+
+  .card {
+    height: 25vh;
+  }
+
+  .main_card_image {
+    width: 6rem
+  }
+
+  .user_name {
+    font-size: 4vh;
+  }
+}
+
 /* Media for desktops with lower height*/
 
 @media screen and (max-height: 55.5rem) {
@@ -317,7 +344,7 @@ body {
   }
 
   .cards {
-    grid-template-columns: repeat(3, minmax(18em, 1fr));
+    grid-template-columns: repeat(3, minmax(16em, 1fr));
     gap: 1rem;
   }
 
@@ -395,13 +422,14 @@ body {
     grid-template-columns: repeat(3, minmax(10em, 1fr));
   }
 
+
+
 }
 
 
 /* Media for Tablet Screens*/
 
-
-@media screen and (max-width: 90.438rem) {
+@media screen and (max-width: 70.438rem) {
 
 
   /* Media for Body */
