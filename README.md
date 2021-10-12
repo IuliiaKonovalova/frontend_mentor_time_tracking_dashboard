@@ -3,17 +3,34 @@
 
 The project was based on the challenge provided by [Frontend Mentor](https://www.frontendmentor.io).
 
-I was using design files provided for this challenge in order to make the result look as similar as possible to the provided images.
-I have also added various breakpoints in order to provide the best user experience.
 
----
+This is a solution to the [Time tracking dashboard challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw). 
+
 ## The design provided
 
 ![Design preview for the Time tracking dashboard coding challenge](documentation/design/desktop-preview.jpg)
+## Table of contents
 
----
+- [User Stories](#user-stories)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Design](#design)
+- [Bugs](#bugs)
+- [Testing](#testing)
+  - [Compatibility](#compatibility)
+  - [Validator testing](#validator-testing)
+  - [Compatibility](#compatibility)
+- [Deployment](#deployment)
+- [Author](#author)
+- [Credits](#credits)
+- [Acknowledgments](#acknowledgments)
 
-The site can be accessed by this [link](https://iuliiakonovalova.github.io/frontend_mentor_time_tracking_dashboard/)
+
+I was using design files provided for this challenge in order to make the result look as similar as possible to the provided images.
+
+I have also added various breakpoints in order to provide the best user experience.
+
+The solution to this challenge can be accessed by this [link](https://iuliiakonovalova.github.io/frontend_mentor_time_tracking_dashboard/)
 
 ![Responsive Mockup](documentation/responsive_mockup.png)
 
@@ -152,9 +169,7 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/front
 
 
 ## Testing
-
-
-**COMPATIBILITY:**
+### Compatibility:
 
 + The app was tested on the following browsers: Chrome, Firefox, Brave, Edge:
 
@@ -204,22 +219,22 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/front
 + The functionality of the links in the app was checked as well by different users.
 
 ---
-## Validator testing
-+ ##### HTML
+### Validator testing
++ #### HTML
   
   - No errors or warnings were found when passing through the official [W3C](https://validator.w3.org/) validator.
   
     - Main Page:
   
     ![Main Page HTML Validator](documentation/validators/validator_html.png)
-+ ##### CSS
++ #### CSS
   
   - No errors or warnings were found when passing through the official [W3C (Jigsaw)](https://jigsaw.w3.org/css-validator/#validate_by_uri) validator except the 3 warnings: 
 
   ![CSS Validator Errors](documentation/validators_testing/validator_css_errors.png)
 
   ![CSS Validator Warnings](documentation/validators_testing/validator_css_warnings.png)
-+ ##### JS
++ #### JS
   
   - No errors or warnings were found when passing through the official [JSHint](https://jshint.com/) validator except the warnings that   
 
@@ -236,12 +251,19 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/front
 The live link can be found [here](https://iuliiakonovalova.github.io/frontend_mentor_time_tracking_dashboard/)
 
 ---
-## Local Deployment
+### Local Deployment
 
 In order to make a local copy of this project, you can clone it.
 In your IDE Terminal, type the following command to clone my repository:
 
 - `git clone https://github.com/IuliiaKonovalova/frontend_mentor_time_tracking_dashboard.git`
+
+---
+
+## Author
+
+- Website - [Add your name here](https://www.your-site.com)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 
 ---
 
