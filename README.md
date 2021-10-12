@@ -226,7 +226,7 @@ The solution to this challenge can be accessed by this [link](https://iuliiakono
   
     - Main Page:
   
-    ![Main Page HTML Validator](documentation/validators/validator_html.png)
+    ![Main Page HTML Validator](documentation/validators_testing/validator_html.png)
 + #### CSS
   
   - No errors or warnings were found when passing through the official [W3C (Jigsaw)](https://jigsaw.w3.org/css-validator/#validate_by_uri) validator except the 3 warnings: 
@@ -262,8 +262,8 @@ In your IDE Terminal, type the following command to clone my repository:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Iuliia Konovalova](https://github.com/IuliiaKonovalova)
+- Frontend Mentor - [@IuliiaKonovalova](https://www.frontendmentor.io/profile/IuliiaKonovalova)
 
 ---
 
