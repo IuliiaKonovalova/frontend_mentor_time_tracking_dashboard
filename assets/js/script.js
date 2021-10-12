@@ -1,3 +1,5 @@
+//Variables
+
 const btnDaily = document.querySelector("#btn-daily");
 const btnWeekly = document.querySelector("#btn-weekly");
 const btnMonthly = document.querySelector("#btn-monthly");
@@ -25,7 +27,7 @@ async function requestAllData() {
   //Request Data from local json file on the page load 
   const response = await fetch('data.json');
   const data = await response.json();
-  ellipsis.forEach(element => element.innerHTML = '              <img src="assets/images/icons/icon-ellipsis.svg" class="svg-img" id="test" onmouseover="changeParentColor(this)" onmouseout="removeParentClass(this)">');
+  ellipsis.forEach(element => element.innerHTML = '<img src="assets/images/icons/icon-ellipsis.svg" class="svg-img" id="test" onmouseover="changeParentColor(this)" onmouseout="removeParentClass(this)">');
   cardContent.forEach(element => {
     for (let i = 0; i < data.length; i++) {
       cardName[i].textContent = data[i].title;
