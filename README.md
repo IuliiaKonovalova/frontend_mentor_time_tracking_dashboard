@@ -203,6 +203,28 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/front
 
 + The functionality of the links in the app was checked as well by different users.
 
+---
+## Validator testing
++ ##### HTML
+  
+  - No errors or warnings were found when passing through the official [W3C](https://validator.w3.org/) validator.
+  
+    - Main Page:
+  
+    ![Main Page HTML Validator](documentation/validators/validator_html.png)
++ ##### CSS
+  
+  - No errors or warnings were found when passing through the official [W3C (Jigsaw)](https://jigsaw.w3.org/css-validator/#validate_by_uri) validator except the 3 warnings: 
+
+  ![CSS Validator Errors](documentation/validators_testing/validator_css_errors.png)
+
+  ![CSS Validator Warnings](documentation/validators_testing/validator_css_warnings.png)
++ ##### JS
+  
+  - No errors or warnings were found when passing through the official [JSHint](https://jshint.com/) validator except the warnings that   
+
+  ![JSHint Validator Main Page](documentation/validators_testing/validator_jshint.png)
+
 
 
 ---
