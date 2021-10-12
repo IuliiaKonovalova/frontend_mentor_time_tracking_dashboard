@@ -19,7 +19,7 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
 - [Testing](#testing)
   - [Compatibility](#compatibility)
   - [Validator testing](#validator-testing)
-  - [Compatibility](#compatibility)
+  - [Lighthouse Report](#lighthouse-report)
 - [Deployment](#deployment)
 - [Author](#author)
 - [Credits](#credits)
@@ -241,6 +241,10 @@ The solution to this challenge can be accessed by this [link](https://iuliiakono
   ![JSHint Validator Main Page](documentation/validators_testing/validator_jshint.png)
 
 ---
+
+### Lighthouse Report
+
+![Lighthouse Report](documentation/lighthouse_report.png)
 ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 

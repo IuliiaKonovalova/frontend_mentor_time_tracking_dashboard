@@ -35,7 +35,6 @@ async function requestAllData() {
       cardName[i].textContent = data[i].title;
       timeCurrent[i].textContent = data[i].timeframes.daily.current + (data[i].timeframes.daily.current > 1 ? "hrs" : "hr");
       timePrevious[i].textContent = "Yesterday - " + data[i].timeframes.daily.previous + (data[i].timeframes.daily.previous > 1 ? "hrs" : "hr");
-
     }
   });
 }
