@@ -225,6 +225,26 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/front
 
   ![JSHint Validator Main Page](documentation/validators_testing/validator_jshint.png)
 
+---
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the [GitHub repository](https://github.com/IuliiaKonovalova/frontend_mentor_time_tracking_dashboard), navigate to the Settings tab 
+  - From the source section drop-down menu, select the **Main** Branch, then click "Save".
+  - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found [here](https://iuliiakonovalova.github.io/frontend_mentor_time_tracking_dashboard/)
+
+---
+## Local Deployment
+
+In order to make a local copy of this project, you can clone it.
+In your IDE Terminal, type the following command to clone my repository:
+
+- `git clone https://github.com/IuliiaKonovalova/frontend_mentor_time_tracking_dashboard.git`
+
+---
+
 
 
 ---
