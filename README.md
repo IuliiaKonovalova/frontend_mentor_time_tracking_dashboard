@@ -171,10 +171,16 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/front
   ![Main Page](documentation/compatibility/brave_browser.png)
 
   - Noted Issues:
-    - None.
+
+    - ```object-fit``` css method does-not work properly in Brave since it Brave support this property only with ```<img>```. Thus, additional code was added to prevent overlap of the elements.
+
+  ![Main Page](documentation/compatibility/brave_browser_issue.png)
+
 
 
 + The app was checked by devtools implemented on Firefox and Chrome browsers.
+
+![Devtools](documentation/compatibility/brave_browser_issue.png)
 
 + The app was checked with [Responsive Website Design Tester](https://responsivedesignchecker.com/).
 
