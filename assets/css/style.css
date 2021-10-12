@@ -94,6 +94,13 @@ body {
   border: 0.2rem solid white;
 }
 
+img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
 .report-title {
   grid-column: 1/3;
   grid-row: 2/3;
