@@ -74,7 +74,7 @@ The solution to this challenge can be accessed by this [link](https://iuliiakono
 
         ![Time Options](documentation/app_features/main_card_time_options.png)
 
-        * Has three cards: work, study, play, exercise, social and sef-care, which allows the user to track the time spending on those activities during a day, a week , and a month.
+        * Has six cards: work, study, play, exercise, social and sef-care, which allows the user to track the time spending on those activities during a day, a week , and a month.
 
         ![Cards](documentation/app_features/report_cards.png)
 
@@ -92,7 +92,7 @@ The solution to this challenge can be accessed by this [link](https://iuliiakono
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - was used as the foundation of the site.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was used to add the styles and layout of the site.
-- [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to arrange items simmetrically on the pages.
+- [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to arrange items symmetrically on the pages.
 - [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) - was used to make "gallery" and "contact" pages responsive.
 - [CSS roots](https://developer.mozilla.org/en-US/docs/Web/CSS/:root) - was used to declaring global CSS variables and apply them throughout the project. 
 - [VSCode](https://code.visualstudio.com/) - was used as the main tool to write and edit code.
